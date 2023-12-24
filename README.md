@@ -2,18 +2,18 @@
 
 Для клонирования кода также нужен git-lfs
 
-Для просмотра решения:
-python -m venv env
-source env/bin/activate
-pip install -U pip
-pip install -r requirements.txt
-jupyter lab
+Для просмотра решения:  
+```python -m venv env```  
+```source env/bin/activate```  
+```pip install -U pip```  
+```pip install -r requirements.txt```  
+```jupyter lab```  
 
 Если юпитер поднят, то 
-python -m ipykernel install --name mts --user и выбрать кернел mts в блокноте.
+```python -m ipykernel install --name mts --user``` и выбрать кернел mts в блокноте.
 
-Код обучения находится в ноутбуке train_notebook.ipynb
-Код инференса в inference.ipynb
+Код обучения находится в ноутбуке ```train_notebook.ipynb```
+Код инференса в ```inference.ipynb```
 
 Оставил последний чекпоинт модели, который используется на инференсе.
 
